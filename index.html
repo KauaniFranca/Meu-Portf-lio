@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Meu Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <img src="file (5).png" alt="Imagem do Portfólio" class="header-image">
+        <h1>Meu Portfólio Escolar</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li onclick="scrollToSection('sobre')">Sobre</li>
+            <li class="dropdown">
+                Lembranças
+                <ul class="submenu">
+                    <li onclick="scrollToSection('projetos')">Minhas memórias</li>
+                </ul>
+            </li>
+            <li onclick="scrollToSection('relatos')">Habilidades</li>
+            <li onclick="scrollToSection('contato')">Contato</li>
+        </ul>
+    </nav>
+
+    <section id="sobre" class="bordered-section">
+        <h2>Quem Sou</h2>
+        <p>Me chamo Kauani dos Santos Couto de França, tenho 16 anos de idade, nasci dia 14/02/2008, do pré ao quinto ano estudei na Escola Municipal Heráclito Fontoura Sobral Pinto, no sexto ano mudei para o Colégio Estadual Padre Cláudio Morelli que estudo até hoje e atualmente estou no 2ºano do Ensino Médio, neste projeto colocarei algumas de minhas lembranças de minha vida escolar veja mais e me conheça um pouco melhor. </p>
+    </section>
+
+    <section id="projetos" class="bordered-section">
+        <h2>♡☆</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="WhatsApp Image 2024-10-16 at 16.10.27.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensino Fundamental 1</h5>
+                        <p class="card-text">2013 á 2018</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="l1.jpeg" class="card-img-top" alt="Imagem do projeto de IA">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensino fundamental 2</h5>
+                        <p class="card-text">2019 á 2022</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="P1.jpeg" class="card-img-top" alt="Imagem do projeto de astronomia">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensino Médio</h5>
+                        <p class="card-text">2023 á 2024 por enquanto...</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="relatos" class="bordered-section">
+        <h2>Habilidades</h2>
+        <div class="relatos">De acordo com pessoas incriveis bem confiaveis que me amam muito tenho algumas habilidades que incluem ser uma boa amiga, ser gentil, amigável, comunicativa, inteligente, legal, tenho racionio rápido, sou bacana, boa em matemática e inglês, sou gente boa, canto bem? e sou muito incrível.</div>
+    </section>
+
+    <section id="contato" class="bordered-section">
+        <h2>Entre em contato</h2>
+        <p>Você pode entrar em contato comigo pelo e-mail: kauani.franca@escola.pr.gov.br</p>
+         <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/KauaniFranca">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Colégio Estadual Padre Cláudio Morelli</p>
+        <p>Kauani dos Santos Couto de França N23</p>
+    </footer>
+
+    <button class="top-button" onclick="scrollToTop()">Voltar para o topo</button>
+
+    <!-- Modais dos Projetos -->
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Melhor Época de Minha Vida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Quando eu era pequena e ainda não tinha idade para ir para a escola, via meus primos mais velhos indo e chorava para que minha mãe me colocasse na escola. Então, ela teve que pagar uma creche para eu poder começar, pois não havia vagas. Depois disso, quando completei a idade para entrar no pré, fui para a Escola Municipal Heráclito Fontoura Sobral Pinto. Nessa escola, tenho algumas das minhas melhores memórias de infância, o primeiro natal que inclusive é a foto do inicio era meu primeiro ano completo o pré, eu era uma criança extremamente alegre, arteira e tagarala fazia amizades muito facil era totalmente extrovertida, eu amava ir para a escola, era amiga de todos da minha sala e de todas as salas em que estudei. Estudei lá até o 5º ano do fundamental, quase sempre com as mesmas pessoas, algumas que até estudaram comigo na creche. Naquela escola, também participava da fanfarra, que tenho memórias inesqueciveis lá fiz muitos amigos incríveis e tive muitas experiências legais. Falando bem a verdade, meu sonho era voltar a essa época, uma das mais felizes da minha vida.</p>
+                    <img src="k.jpeg" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mudanças como Odeio Elas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Quando mudei para o Morelli no 6º ano, fui cheia de medo, pois era um recomeço. Eu não conhecia ninguém, e nenhum amigo ou amiga que estudava comigo antes iria para lá, porque todos foram para escolas diferentes. Seria uma grande mudança, e eu me sentia completamente sozinha. Quando cheguei, a sensação só piorou, porque todos já se conheciam, estudavam juntos antes, e a maioria já era amiga, menos eu. Me sentia muito sozinha e excluída, tentava me incluir em alguns grupos, mas era difícil, parecia que eu não me encaixava. Nessa epóca do sexto e sétimo ano o intervalo era meu pior pesadelos pois eu ficava na biblioteca ou, às vezes, conseguia me enturmar e ficar com alguém. Outras vezes, até corria com os meninos, que eram mais fáceis de me enturmar. Foi assim até a pandemia.
+                        Durante a pandemia, fiz amizades e, finalmente, comecei a me sentir incluída e parte de um grupo de amigos de verdade. Quando voltamos às aulas presenciais, tudo parecia diferente. Eu sempre tinha com quem conversar, fazer brincadeiras, passar o tempo, o intervalo. Dessa época do oitavo e nono ano levo comigo muitas lembranças e memórias muito íncriveis e especiais que causam saudade. Hoje em dia, ainda levo algumas amizades dessa época comigo e sou muito grata a todos que fizeram parte dessa fase da minha vida.</p>
+                    <img src="M1.png" class="img-fluid w-100" alt="Imagem representativa do projeto de IA">
+                </div>
+                <div class="modal-footer">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Começo do Fim?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O ensino médio… que medo eu tenho de você. Sinto que estou perto do fim e, quando isso acabar, o que eu vou fazer? Ano passado, no 1º ano, eu tinha certeza sobre o resto da minha vida, porém, este ano, já não quero mais nada do que pensava que queria antes. Tenho lembranças incríveis do ano passado, um ano memorável. Estava em uma sala onde me sentia extremamente confortável, conhecia a maioria das pessoas e me sentia em casa, apesar dos altos e baixos.
+                        Porém, quando tivemos que fazer a escolha entre exatas e humanas para o 2º ano, tudo mudou. Cada um foi para um lado, e, além disso, até quem escolheu o mesmo foi separado. Falando a verdade, quando entrei nessa sala, estava morrendo de medo de não conseguir me enturmar. No início, foi bem difícil. Eu ficava a maior parte do tempo quieta e só falava com quem já conhecia, e, mesmo assim, ainda não me sentia incluída.
+                        Mas, com o decorrer do ano, fui me enturmando, fazendo colegas e criando amizades. Hoje me sinto muito bem nessa sala, me sinto confortável novamente.
+                        Mas ainda é difícil lidar com mudanças — que, aliás, eu odeio. Mas agora eu sei e entendo que precisamos delas pois elas que nos fazem crescer e amadurecer.</p>
+                    <img src="P2.jpeg" class="img-fluid w-100" alt="Imagem representativa do projeto de astronomia">
+                </div>
+                <div class="modal-footer">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>

@@ -1,0 +1,94 @@
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f0ff; /* fundo lilás claro */
+  color: #5b3e82; /* texto em roxo */
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0c6e2; /* fundo header lilás */
+  padding: 20px;
+  border-bottom: 5px solid purple; /* borda inferior do cabeçalho */
+}
+
+.header-image {
+  max-width: 190px; /* ajuste a largura da imagem */
+  margin-right: -50px;
+}
+
+nav {
+  background-color: #d5b0e3; /* fundo do menu */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #bb8cd8; /* fundo ao passar o mouse */
+}
+
+nav .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #d5b0e3;
+  list-style: none;
+}
+
+nav .dropdown:hover .submenu {
+  display: block;
+}
+
+.bordered-section {
+  border: 2px solid rgb(148, 8, 122); /* bordas roxas */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #f0d2eb; /* fundo das seções */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0c6e2; /* fundo do rodapé */
+  position: relative;
+}
+
+.top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  background-color: #5b3e82; /* cor ao passar o mouse */
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid rgb(148, 8, 122); /* bordas das cartas */
+  border-radius: 5px;
+}    
+.card { margin: 10px; border: 1px solid rgb(148, 8, 122); border-radius: 5px; height: 100%; } 
+.card-img-top { width: 250%; height: 450px; object-fit: cover; }
